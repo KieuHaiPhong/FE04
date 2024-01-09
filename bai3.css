@@ -1,0 +1,47 @@
+quadratic-solver {
+    /* Overall container styling */
+    display: flex; /* Create a flexible layout */
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: center; /* Center elements horizontally */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners for visual appeal */
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  h1 {
+    /* Heading styling */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add spacing below */
+  }
+  
+  label {
+    /* Label styling */
+    display: block; /* Display labels on separate lines */
+    margin-bottom: 5px; /* Add spacing below each label */
+  }
+  
+  input {
+    /* Input field styling */
+    width: 100%; /* Full width for easy input */
+    padding: 10px; /* Add padding for better readability */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 3px; /* Rounded corners for input fields */
+  }
+  
+  button {
+    /* Button styling */
+    background-color: #4CAF50; /* Green background for visual emphasis */
+    color: white; /* White text for contrast */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+  }
+  
+  #results {
+    /* Results area styling */
+    margin-top: 20px; /* Add spacing above */
+    font-weight: bold; /* Emphasize the results */
+  }
